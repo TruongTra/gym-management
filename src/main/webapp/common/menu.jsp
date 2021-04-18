@@ -26,15 +26,15 @@
 	<div id="treeUser" align="center">
 
 		<div class="w3-row" >
-			<a href="MemberListServlet" > <span style="padding-top:6px;padding-bottom:6px;color: whitesmoke;" id=""
+			<a href="http://localhost:8080/gym-management/danh-sach" > <span style="padding-top:6px;padding-bottom:6px;color: whitesmoke;" id=""
 				class="w3-col m8"> Members List </span></a>
 		</div>
 		<div class="w3-row">
-			<a href="TrainerListServlet"> <span style="padding-top:6px;padding-bottom:6px;color: whitesmoke;" id=""
+			<a href="http://localhost:8080/gym-management/danh-sach"> <span style="padding-top:6px;padding-bottom:6px;color: whitesmoke;" id=""
 				class="w3-col m8"> Staffs List</span></a>
 		</div>
 		<div class="w3-row">
-			<a href="AdminListServlet"> <span style="padding-top:6px;padding-bottom:6px;color: whitesmoke;" class="w3-col m8" id="">
+			<a href="http://localhost:8080/gym-management/danh-sach"> <span style="padding-top:6px;padding-bottom:6px;color: whitesmoke;" class="w3-col m8" id="">
 					Admins List</span></a>
 		</div>
 	</div>

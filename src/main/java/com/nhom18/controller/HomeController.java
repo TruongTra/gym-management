@@ -13,4 +13,9 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("home");
 		return mav;
 	}
+	@RequestMapping(value = "danh-sach", method = RequestMethod.GET)
+	public ModelAndView listPage() {
+		ModelAndView mav = new ModelAndView("list-users");
+		return mav;
+	}
 }
