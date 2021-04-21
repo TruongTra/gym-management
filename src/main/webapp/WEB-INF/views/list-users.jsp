@@ -40,14 +40,27 @@
 		<!-- Begin Page Content -->
 		<div class="container-fluid">
 
-			<!-- Page Heading -->
-			<h1 class="h3 mb-2 text-gray-800">Tables</h1>
-			<p class="mb-4">
-				DataTables is a third party plugin that is used to generate the demo
-				table below. For more information about DataTables, please visit the
-				<a target="_blank" href="https://datatables.net">official
-					DataTables documentation</a>.
-			</p>
+			<div style="text-align: right" class="widget-box table-filter">
+				<div style="position:"class="table-btn-controls">
+					<div class="pull-right tableTools-container">
+						<div class="dt-buttons btn-overlap btn-group">
+							<a flag="info"
+								class="dt-button buttons-colvis btn btn-white btn-primary btn-bold"
+								data-toggle="tooltip" title='Thêm bài viết'
+								href='<c:url value="/admin-new?type=edit"/>'> <span>
+									<i class="fa fa-plus-circle bigger-110 purple"></i>
+							</span>
+							</a>
+							<button style ="margin-left: 1px" id="btnDelete" type="button"
+								class="dt-button buttons-html5 btn btn-white btn-primary btn-bold"
+								data-toggle="tooltip" title='Xóa bài viết'>
+								<span> <i class="fa fa-trash bigger-110 pink"></i>
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<!-- DataTales Example -->
 			<div class="card shadow mb-4">
@@ -547,7 +560,7 @@
 
 	</div>
 	<!-- End of Main Content -->
-	
+
 	<!-- Scroll to Top Button-->
 	<a class="scroll-to-top rounded" href="#page-top"> <i
 		class="fas fa-angle-up"></i>
@@ -560,14 +573,18 @@
 
 	<!-- Bootstrap core JavaScript-->
 	<script src="<c:url value='/template/vendor/jquery/jquery.min.js'/>"></script>
-	<script src="<c:url value='/template/vendor/bootstrap/js/bootstrap.bundle.min.js'/>"></script>
+	<script
+		src="<c:url value='/template/vendor/bootstrap/js/bootstrap.bundle.min.js'/>"></script>
 	<!-- Core plugin JavaScript-->
-	<script src="<c:url value='/template/vendor/jquery-easing/jquery.easing.min.js'/>"></script>
+	<script
+		src="<c:url value='/template/vendor/jquery-easing/jquery.easing.min.js'/>"></script>
 	<!-- Custom scripts for all pages-->
 	<script src="<c:url value='/template/js/sb-admin-2.min.js'/>"></script>
 	<!-- Page level plugins -->
-	<script src="<c:url value='/template/vendor/datatables/jquery.dataTables.min.js'/>"></script>
-	<script src="<c:url value='/template/vendor/datatables/dataTables.bootstrap4.min.js'/>"></script>
+	<script
+		src="<c:url value='/template/vendor/datatables/jquery.dataTables.min.js'/>"></script>
+	<script
+		src="<c:url value='/template/vendor/datatables/dataTables.bootstrap4.min.js'/>"></script>
 	<!-- Page level custom scripts -->
 	<script src="<c:url value='/template/js/demo/datatables-demo.js'/>"></script>
 </body>

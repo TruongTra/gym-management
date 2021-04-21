@@ -44,14 +44,16 @@
 					<!-- Page Heading -->
 					<div
 						class="d-sm-flex align-items-center justify-content-between mb-4">
-						<div><h1 class="h3 mb-0 text-gray-800">Thống kê</h1>
-						<label for="">Choose a year:</label> <select id="">
-							<option value=""selected>Tất cả</option>
-							<option value="" >2021</option>
-							<option value="">2022</option>
-							<option value="" >2019</option>
-						</select> </div>
-						
+						<div>
+							<h1 class="h3 mb-0 text-gray-800">Thống kê</h1>
+							<label for="">Choose a year:</label> <select id="">
+								<option value="" selected>Tất cả</option>
+								<option value="">2021</option>
+								<option value="">2022</option>
+								<option value="">2019</option>
+							</select>
+						</div>
+
 						<a href="#"
 							class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
 							class="fas fa-download fa-sm text-white-50"></i> Export Excel</a>
@@ -166,7 +168,7 @@
 		class="fas fa-angle-up"></i>
 	</a>
 
-	
+
 	<!-- Footer -->
 	<%@ include file="/common/footer.jsp"%>
 	<!-- End of Footer -->
@@ -190,6 +192,6 @@
 	<script src="<c:url value='/template/js/demo/chart-area-demo.js'/>"></script>
 	<script src="<c:url value='/template/js/demo/chart-pie-demo.js'/>"></script>
 
-</body>
 
+</body>
 </html>
